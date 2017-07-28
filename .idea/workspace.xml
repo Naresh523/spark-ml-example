@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be5200c-2a83-4fd9-99ed-c3a26d474ddd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/spark.ml.examples/LinearRegressionExample.scala" afterPath="$PROJECT_DIR$/src/main/scala/spark.ml.examples/LinearRegressionExample.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/spark.ml.examples/LogisticRegressionExample.scala" afterPath="$PROJECT_DIR$/src/main/scala/spark.ml.examples/LogisticRegressionExample.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spark-ML-Example.iml" afterPath="$PROJECT_DIR$/spark-ML-Example.iml" />
     </list>
@@ -43,8 +41,8 @@
       <file leaf-file-name="LogisticRegressionExample.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/spark.ml.examples/LogisticRegressionExample.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38163716">
-              <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+            <state vertical-scroll-proportion="0.63053095">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#27#122#0" expanded="true" />
               </folding>
@@ -735,8 +733,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/spark.ml.examples/LogisticRegressionExample.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38163716">
-          <caret line="23" column="73" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="73" />
+        <state vertical-scroll-proportion="0.63053095">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#27#122#0" expanded="true" />
           </folding>
