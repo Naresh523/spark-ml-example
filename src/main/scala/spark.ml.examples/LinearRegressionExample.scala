@@ -16,7 +16,7 @@ object LinearRegressionExample {
     //Dataframe for ML takes in this format ("label", "features")
     import org.apache.spark.ml.feature.VectorAssembler
 
-
+    // Some how df.select(col("")) is erroring syntax
     val df = csvData.select(csvData("Price").as("label"), csvData("Avg Area Income"), csvData("Avg Area House Age"), csvData("Avg Area Number of Rooms"),
       csvData("Avg Area Number of Bedrooms"), csvData("Area Population"))
 
@@ -36,10 +36,10 @@ object LinearRegressionExample {
     //Fit the model
     val lrModel = lr.fit(output)
 
-    val trainingSummarry = lrModel.summary
-    trainingSummarry.residuals.show()
-    println(s"TrainingSummary : ${trainingSummarry.predictions.show()}")
-    println(s"RMSE : ${trainingSummarry.rootMeanSquaredError}")
+    val trainingSummary = lrModel.summary
+    trainingSummary.residuals.show()
+    println(s"TrainingSummary : ${trainingSummary.predictions.show()}")
+    println(s"RMSE : ${trainingSummary.rootMeanSquaredError}")
 
   }
 
